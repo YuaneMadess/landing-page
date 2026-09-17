@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1>Portfolio Saya</h1>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section id="home" class="box hero">
+            <p>Halo, saya</p>
+            <h2>Yuane Madesta</h2>
+            <p>
+                Saya adalah seorang murid yang suka dengan DTP Software Developer, biasanya di Software Developer membuat sebuah website menggunakan aplikasi Visual Studio Code 
+            </p>
+        </section>
+
+        <section id="about" class="box">
+            <h2>Tentang Saya</h2>
+
+            <p>
+                Saya tertarik dengan teknologi, pemrograman,
+                dan desain website.
+            </p>
+        </section>
+
+        <section id="projects" class="box">
+            <h2>Proyek Saya</h2>
+
+            <div class="projects">
+
+                <div class="card">
+                    <h3>Website Sekolah</h3>
+                    <p>
+                        Website sederhana untuk menampilkan
+                        informasi sekolah.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Landing Page</h3>
+                    <p>
+                        Website landing page menggunakan
+                        HTML dan CSS.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Portfolio</h3>
+                    <p>
+                        Website untuk menampilkan profil
+                        dan hasil karya.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="box">
+            <h2>Hubungi Saya</h2>
+
+            <form>
+
+                <div class="form-container">
+
+                    <div class="form-column">
+
+                        <div class="form-group">
+                            <label for="nama">Nama</label>
+                            <input
+                                type="text"
+                                id="nama"
+                                placeholder="Masukkan nama"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="Masukkan email"
+                            >
+                        </div>
+
+                    </div>
+
+                    <div class="form-column">
+
+                        <div class="form-group">
+                            <label for="telepon">
+                                Nomor Telepon
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="telepon"
+                                placeholder="08xxxxxxxxxx"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subjek">Subjek</label>
+                            <input
+                                type="text"
+                                id="subjek"
+                                placeholder="Subjek pesan"
+                            >
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="pesan">Pesan</label>
+
+                    <textarea
+                        id="pesan"
+                        rows="5"
+                        placeholder="Tulis pesan kamu..."
+                    ></textarea>
+                </div>
+
+                <button type="submit">
+                    Kirim Pesan
+                </button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Yuane Madesta</p>
+    </footer>
+
+</body>
+</html>
